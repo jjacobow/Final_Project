@@ -14,9 +14,9 @@ public class Retirement {
 	
 	
 	public Retirement() 
-	{
+	{	
+	} 
 	
-	}
 	public int getiYearsToWork() {
 		return iYearsToWork;
 	}
@@ -64,6 +64,7 @@ public class Retirement {
 	public void setdMonthlySSI(double dMonthlySSI) {
 		this.dMonthlySSI = dMonthlySSI;
 	}
+
 
 	public double AmountToSave()
 	{

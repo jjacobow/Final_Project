@@ -9,12 +9,14 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.TextField;
 import pkgApp.RetirementApp;
 import pkgCore.Retirement;
-import java.awt.Label;
+
+
 
 public class RetirementController implements Initializable {
 
 		
 	private RetirementApp mainApp = null;
+
 	
 	@FXML
 	private TextField txtYearsToWork;
@@ -89,8 +91,6 @@ public class RetirementController implements Initializable {
 			LbLSEM.setText("Error");
 			LbLNTS.setText("Error");
 		}
-		}
-		
 	}
 	
 }
